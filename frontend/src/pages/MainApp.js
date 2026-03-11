@@ -30,7 +30,7 @@ export default function MainApp() {
   };
 
   return (
-    <div style={{ height: '100vh', display: 'flex', flexDirection: 'column', maxWidth: 480, margin: '0 auto', background: 'white', boxShadow: '0 0 40px rgba(0,0,0,0.1)' }}>
+    <div style={{ height: '100vh', display: 'flex', flexDirection: 'column', width: '100%', maxWidth: 480, margin: '0 auto', background: 'white', boxShadow: '0 0 40px rgba(0,0,0,0.1)', position: 'relative' }}>
       {/* Header */}
       <header style={{
         padding: '12px 16px', display: 'flex', alignItems: 'center', justifyContent: 'space-between',
@@ -58,7 +58,7 @@ export default function MainApp() {
       </header>
 
       {/* Content */}
-      <main style={{ flex: 1, overflowY: 'auto', padding: '16px', background: 'linear-gradient(135deg, #fef7f0, #fef3c7)' }}>
+      <main style={{ flex: 1, overflowY: 'auto', overflowX: 'hidden', padding: '16px', background: 'linear-gradient(135deg, #fef7f0, #fef3c7)', width: '100%', boxSizing: 'border-box' }}>
         {renderPage()}
       </main>
 
