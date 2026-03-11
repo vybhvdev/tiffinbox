@@ -11,8 +11,23 @@ A full-stack mobile-first meal subscription web application built with React.js,
 
 | Login | Home | Plans | Admin |
 |-------|------|-------|-------|
-| Auth screen with phone + password | Today's menu & meals remaining | Subscription plans | Admin dashboard |
+| 
 
+![Login](![Image](https://github.com/user-attachments/assets/4a7bb2ca-c07b-406f-8963-9b9f8131eb10))
+
+ | 
+
+![Home](![Image](https://github.com/user-attachments/assets/68283684-e4cb-4ac8-b4f2-25212fa3520a))
+
+ | 
+
+![Plans](![Image](https://github.com/user-attachments/assets/1bb541b3-7f63-4760-b474-842b11a81552))
+
+ | 
+
+![Admin](![Image](https://github.com/user-attachments/assets/9ae621d6-7374-4313-94cb-2cf649e390d3))
+
+ |
 ---
 
 ## ✨ Features
