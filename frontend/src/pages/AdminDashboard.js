@@ -62,7 +62,7 @@ export default function AdminDashboard() {
   };
 
   return (
-    <div style={{ height: '100vh', display: 'flex', flexDirection: 'column', maxWidth: 480, margin: '0 auto', background: 'white', boxShadow: '0 0 40px rgba(0,0,0,0.1)' }}>
+    <div style={{ height: '100vh', display: 'flex', flexDirection: 'column', width: '100%', maxWidth: 480, margin: '0 auto', background: 'white', boxShadow: '0 0 40px rgba(0,0,0,0.1)' }}>
       {toast && (
         <div style={{
           position: 'fixed', top: 16, left: '50%', transform: 'translateX(-50%)', zIndex: 999,
@@ -103,7 +103,7 @@ export default function AdminDashboard() {
       </div>
 
       {/* Content */}
-      <main style={{ flex: 1, overflowY: 'auto', padding: 16, background: '#f9fafb' }}>
+      <main style={{ flex: 1, overflowY: 'auto', padding: 16, background: '#f9fafb', width: '100%', boxSizing: 'border-box' }}>
         {renderContent()}
       </main>
     </div>
